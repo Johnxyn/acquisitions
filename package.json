@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "dev": "node --watch ./src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -14,16 +13,12 @@
     "db:migrate": "dotenv -e .env -- drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "debug:env": "node -e \"require('dotenv').config(); console.log(process.env.DATABASE_URL)\""
-=======
-    "dev": "node --watch ./src/index.js"
->>>>>>> 2fc66ed142d763047a86f021708c7b980013b47f
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-<<<<<<< HEAD
     "@neondatabase/serverless": "^1.0.2",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.44.6",
@@ -39,9 +34,5 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2"
-=======
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0"
->>>>>>> 2fc66ed142d763047a86f021708c7b980013b47f
   }
 }
